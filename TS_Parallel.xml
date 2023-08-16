@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Suite">
+  <test  name="TestRunner-1">
+	  
+    <classes>
+      <class name="user_Module.UpdateBillingAndShipping_TestNGTest"/>
+      <class name="user_Module.VerifyingPaymentPage_TestNGTest"/>
+        
+    </classes>
+    </test><!-- -->
+    <test name="TestRunner-2">
+     
+    <classes>
+      <class name="user_Module.Order_a_Product_TestNGTest"/>
+      <class name="user_Module.SignUpToApplication_TestNGTest"/>
+    </classes>
+    </test>
+    
+    <test name="TestRunner-3">
+     
+    <classes>
+    <class name="user_Module.CreateUserAccount_TestNGTest"/>
+      <class name="user_Module.AddProductToWishlist_TestNGTest"/>
+    </classes>
+    </test>
+  
+</suite> <!-- Suite -->

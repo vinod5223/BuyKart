@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Suite">
+ <groups>
+	 <run>
+		 <include name="regression"></include>
+	 </run>
+ </groups>
+  <test thread-count="1" parallel="tests" name="Test">
+	  	
+    <classes>
+		 <class name="practiceTestNG.TestNG_CreateProductTest"> 
+			 
+			 <methods>
+				 <include name="editProduct"></include>
+			 </methods>
+			  </class>
+      <class name="practiceTestNG.TestNG_CreateCategoryTest">
+		 <methods>
+			 <exclude name="createCategory"></exclude>
+		 </methods>
+
+	  </class>
+     
+	
+    </classes>
+    
+  </test>
+   <!-- Test -->
+</suite> <!-- Suite -->
