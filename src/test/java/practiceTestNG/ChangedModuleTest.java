@@ -6,6 +6,6 @@ public class ChangedModuleTest {
 
 	@Test
 	public void changed_ModuleTest() {
-		System.out.println("this is the newly added feature");
+		System.out.println("this is the newly added feature   vsvsdv");
 	}
 }
