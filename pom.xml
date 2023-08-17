@@ -90,6 +90,7 @@
         <configuration>
           <suiteXmlFiles>
             <suiteXmlFile>Batch.xml</suiteXmlFile>
+            <suiteXmlFile>TS_Batch.xml</suiteXmlFile>
              
           </suiteXmlFiles>
         </configuration>
