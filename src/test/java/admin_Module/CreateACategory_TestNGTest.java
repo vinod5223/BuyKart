@@ -14,7 +14,7 @@ public class CreateACategory_TestNGTest extends BaseClass {
 	public void createCategory() throws Exception {
 		AdminHomePage ahp= new AdminHomePage(driver);	
 		ahp.createCategory();
-		Assert.fail();
+//		Assert.fail();
 //		creating a category
 		CreateCategoryHomePage cchp= new CreateCategoryHomePage(driver);
 		
